@@ -25,6 +25,8 @@
 }
 
 @layer base {
+  overflow-x: clip;
+
   * {
     border-color: var(--color-line);
   }

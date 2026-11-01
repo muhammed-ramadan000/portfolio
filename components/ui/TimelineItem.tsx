@@ -16,9 +16,9 @@ export default function TimelineItem({
   isLast: boolean;
 }) {
   return (
-    <li className="relative flex gap-6 sm:gap-10">
+    <li className="relative flex gap-4 sm:gap-10">
       {/* Rail: node + connecting line */}
-      <div className="relative flex w-8 flex-none flex-col items-center sm:w-10">
+      <div className="relative flex w-5 flex-none flex-col items-center sm:w-10">
         <motion.span
           initial={{ scale: 0 }}
           whileInView={{ scale: 1 }}
@@ -42,8 +42,8 @@ export default function TimelineItem({
         )}
       </div>
 
-      <RevealOnScroll index={index} className="flex-1 pb-14">
-        <GlassCard glow={item.current ? "teal" : "violet"} className="p-6 sm:p-8">
+      <RevealOnScroll index={index} className="min-w-0 flex-1 pb-10 sm:pb-14">
+        <GlassCard glow={item.current ? "teal" : "violet"} className="p-5 sm:p-8">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <span className="code-label">
               {item.start} — {item.current ? "Present" : item.end}

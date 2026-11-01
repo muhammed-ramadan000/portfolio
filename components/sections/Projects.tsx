@@ -4,7 +4,7 @@ import ProjectCard from "@/components/ui/ProjectCard";
 
 export default function Projects() {
   return (
-    <section id="projects" className="relative px-6 py-28 sm:px-8 sm:py-36">
+    <section id="projects" className="relative px-6 py-20sm:px-8 sm:py-30">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="// 03_projects"

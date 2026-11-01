@@ -49,7 +49,7 @@ export default function Hero() {
       id="hero"
       className="relative flex min-h-[100svh] flex-col justify-center px-6 pt-28 sm:px-8"
     >
-      <div className="mx-auto grid w-full max-w-6xl gap-14 lg:grid-cols-[1.15fr_0.85fr] lg:items-center lg:gap-10">
+      <div className="mx-auto grid w-full max-w-6xl gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-center lg:gap-10">
         <div>
         <motion.div
           initial={{ opacity: 0, y: 12 }}
@@ -153,7 +153,7 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1.6, duration: 0.8 }}
         aria-label="Scroll to About section"
-        className="absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2 text-muted transition-colors hover:text-teal"
+        className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 flex-col sm:flex items-center gap-2 text-muted transition-colors hover:text-teal"
       >
         <span className="font-mono text-[11px] uppercase tracking-[0.2em]">scroll</span>
         <motion.span

@@ -4,7 +4,7 @@ import TimelineItem from "@/components/ui/TimelineItem";
 
 export default function Experience() {
   return (
-    <section id="experience" className="relative px-6 py-28 sm:px-8 sm:py-36">
+    <section id="experience" className="relative px-6 py-20 sm:px-8 sm:py-30">
       <div className="mx-auto max-w-4xl">
         <SectionHeading
           eyebrow="// 02_experience"

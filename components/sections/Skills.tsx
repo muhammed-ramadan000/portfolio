@@ -4,7 +4,7 @@ import SkillBadge from "@/components/ui/SkillBadge";
 
 export default function Skills() {
   return (
-    <section id="skills" className="relative px-6 py-28 sm:px-8 sm:py-36">
+    <section id="skills" className="relative px-6 py-20 sm:px-8 sm:py-30">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow="// 04_skills"

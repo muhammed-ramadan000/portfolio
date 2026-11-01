@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useMotionValue, useSpring } from "framer-motion";
-import type { ReactNode, MouseEvent } from "react";
+  import type { PointerEvent, ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
 interface MagneticButtonProps {
@@ -27,7 +27,9 @@ export default function MagneticButton({
   const springX = useSpring(x, SPRING);
   const springY = useSpring(y, SPRING);
 
-  function handleMouseMove(event: MouseEvent<HTMLElement>) {
+  function handleMouseMove(event: PointerEvent<HTMLElement>) {
+    // Ignore touch: on phones the "pull" would leave buttons stuck off-center
+    if (event.pointerType !== "mouse") return;
     const bounds = event.currentTarget.getBoundingClientRect();
     const relX = event.clientX - bounds.left - bounds.width / 2;
     const relY = event.clientY - bounds.top - bounds.height / 2;

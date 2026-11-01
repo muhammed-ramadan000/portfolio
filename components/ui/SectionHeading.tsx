@@ -15,7 +15,7 @@ export default function SectionHeading({
   align = "left",
 }: SectionHeadingProps) {
   return (
-    <div className={cn("mb-14 max-w-2xl", align === "center" && "mx-auto text-center")}>
+    <div className={cn("mb-10 max-w-2xl", align === "center" && "mx-auto text-center")}>
       <RevealOnScroll>
         <span className="code-label">{eyebrow}</span>
       </RevealOnScroll>

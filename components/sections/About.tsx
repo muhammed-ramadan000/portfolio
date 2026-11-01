@@ -40,7 +40,7 @@ function StatCounter({ value, label }: { value: string; label: string }) {
 
 export default function About() {
   return (
-    <section id="about" className="relative px-6 py-28 sm:px-8 sm:py-36">
+    <section id="about" className="relative px-6 py-20 sm:px-8 sm:py-30">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           eyebrow={ABOUT.eyebrow}
