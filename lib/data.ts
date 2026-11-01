@@ -252,4 +252,4 @@ export const CONTACT: ContactLink[] = [
 export const RESUME_PATH = "/resume/Muhammad-Ramadan-CV.pdf";
 
 // Drop your photo in /public/profile/ and update the filename here if needed
-export const HERO_PHOTO_PATH = "/projects/profile/muhammad-ramadan.png";
+export const HERO_PHOTO_PATH = "/projects/profile/ramadan portfolio.png";
