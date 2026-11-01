@@ -46,6 +46,8 @@ export default function Contact() {
             <div className="mt-8 grid grid-cols-1 gap-3 sm:mt-10 sm:grid-cols-2 sm:gap-4">
               {CONTACT.map((item) => {
                 const Icon = ICONS[item.icon];
+                // GitHub and LinkedIn show only their name; the box links to the profile
+                const labelOnly = item.icon === "github" || item.icon === "linkedin";
                 return (
                   <a
                     key={item.label}
@@ -58,10 +60,16 @@ export default function Contact() {
                       <Icon className="h-[1.125rem] w-[1.125rem]" />
                     </span>
                     <span className="min-w-0 flex-1">
-                      <span className="block text-xs text-muted">{item.label}</span>
-                      <span className="block break-words text-sm font-medium text-ink">
-                        {item.value}
-                      </span>
+                      {labelOnly ? (
+                        <span className="block text-sm font-medium text-ink">{item.label}</span>
+                      ) : (
+                        <>
+                          <span className="block text-xs text-muted">{item.label}</span>
+                          <span className="block break-words text-sm font-medium text-ink">
+                            {item.value}
+                          </span>
+                        </>
+                      )}
                     </span>
                   </a>
                 );
