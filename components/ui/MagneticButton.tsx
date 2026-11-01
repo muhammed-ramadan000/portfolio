@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useMotionValue, useSpring } from "framer-motion";
-  import type { PointerEvent, ReactNode } from "react";
+import type { PointerEvent, ReactNode } from "react";
 import { cn } from "@/lib/utils";
 
 interface MagneticButtonProps {
@@ -58,8 +58,8 @@ export default function MagneticButton({
       onClick={onClick}
       target={href?.startsWith("http") ? "_blank" : undefined}
       rel={href?.startsWith("http") ? "noopener noreferrer" : undefined}
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
+      onPointerMove={handleMouseMove}
+      onPointerLeave={handleMouseLeave}
       style={{ x: springX, y: springY }}
       whileTap={{ scale: 0.96 }}
       className={cn(base, styles, className)}
