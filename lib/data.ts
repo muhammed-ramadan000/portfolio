@@ -120,7 +120,7 @@ export const PROJECTS: ProjectItem[] = [
       "A modern corporate website for a capital and funding group, built in Webflow from Figma designs with custom interactions and motion throughout.",
     tech: ["Wordpress", "Figma", "JavaScript"],
     url: "https://oppoliaksa.com/",
-    image: "/projects/profile/oppolia.png",
+    image: "/projects/profile/oppolia.jpg",
   },
   {
     id: "gs-capital",
@@ -131,7 +131,7 @@ export const PROJECTS: ProjectItem[] = [
       "A modern corporate website for a capital and funding group, built in Webflow from Figma designs with custom interactions and motion throughout.",
     tech: ["Wordpress", "Figma", "JavaScript"],
     url: "https://gs-capital.co/",
-    image: "/projects/gs.png",
+    image: "/projects/profile/gs-capital.jpg",
   },
   {
     id: "ibtikar",
@@ -142,7 +142,7 @@ export const PROJECTS: ProjectItem[] = [
       "Agency website for a communications firm, translated pixel-for-pixel from Figma into a responsive Webflow build with layered animation.",
     tech: ["Wordpress", "php", "Figma"],
     url: "https://ibtikar.me/",
-    image: "/projects/ibtikar.png",
+    image: "/projects/profile/ibtikar.jpg",
   },
   {
     id: "turtle-white",
@@ -153,7 +153,7 @@ export const PROJECTS: ProjectItem[] = [
       "A brand-forward site built with careful attention to spacing, typography, and interactive scroll behavior.",
     tech: ["Wordpress", "php"],
     url: "https://turtlewhite.com/",
-    image: "/projects/turtle.png",
+    image: "/projects/profile/turtle-white.jpg",
   },
   {
     id: "emtc",
@@ -164,7 +164,7 @@ export const PROJECTS: ProjectItem[] = [
       "Responsive WordPress site for an education and training provider, optimized for performance and cross-browser consistency.",
     tech: ["WordPress", "php", "javascript"],
     url: "https://emtc.edu.sa",
-    image: "/projects/emtc.png",
+    image: "/projects/profile/emtc.jpg",
   },
   {
     id: "az-bookstore",
@@ -175,7 +175,7 @@ export const PROJECTS: ProjectItem[] = [
       "A WooCommerce storefront built for reliability and speed, with a UX tuned for browsing and checkout on every device.",
     tech: ["WordPress", "WooCommerce"],
     url: "https://www.a-zbookstore.com",
-    image: "/projects/a-z.png",
+    image: "/projects/profile/az-bookstore.jpg",
   },
   {
     id: "in-the-black-media",
@@ -186,7 +186,7 @@ export const PROJECTS: ProjectItem[] = [
       "A US media company site with Webflow-driven animation, built in close collaboration with the in-house design team.",
     tech: ["Webflow", "Figma"],
     url: "https://www.intheblackmedia.com/",
-    image: "/projects/in-the-black.png",
+    image: "/projects/profile/in-the-black-media.jpg",
   },
   {
     id: "comtech",
@@ -197,7 +197,7 @@ export const PROJECTS: ProjectItem[] = [
       "Corporate presence for an industrial manufacturer, focused on clear information architecture and fast load times.",
     tech: ["Squarespace", "CSS"],
     url: "https://www.comtechsteelindustries.com/",
-    image: "/projects/comtech.png",
+    image: "/projects/profile/comtech.jpg",
   },
 ];
 
