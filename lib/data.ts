@@ -120,7 +120,7 @@ export const PROJECTS: ProjectItem[] = [
       "A modern corporate website for a capital and funding group, built in Webflow from Figma designs with custom interactions and motion throughout.",
     tech: ["Wordpress", "Figma", "JavaScript"],
     url: "https://oppoliaksa.com/",
-    image: "/projects/oppolia.png",
+    image: "/projects/profile/oppolia.png",
   },
   {
     id: "gs-capital",
