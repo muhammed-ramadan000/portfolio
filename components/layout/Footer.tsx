@@ -22,7 +22,7 @@ export default function Footer() {
   return (
     <footer className="relative border-t border-line">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-6 py-10 sm:flex-row sm:justify-between sm:px-8">
-        <p className="font-mono text-xs text-muted">
+        <p className="text-balance text-center font-mono text-xs text-muted sm:text-left">
           © {year} {SITE.name}. Built with Next.js &amp; care.
         </p>
 
